@@ -1,0 +1,29 @@
+#title {
+    text-align: center;
+}
+
+#container {
+    width: 65%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr );
+    grid-template-rows: repeat(16,1fr);
+}
+
+.grid {
+    margin: 1px;
+    background-color:blueviolet;
+}
+
+#reset {
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 720px){
+    #container{
+        width: 80%;
+    }
+}
